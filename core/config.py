@@ -1,1 +1,4 @@
-MONGO_URI = "mongodb://admin:admin@db:27017"
+import os
+
+MONGO_URI = os.getenv("MONGO_URI")
+DATABASE_NAME = os.getenv("DATABASE_NAME")
