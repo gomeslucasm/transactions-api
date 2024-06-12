@@ -16,7 +16,6 @@ def make_app():
             (r"/read_tpv", TotalPaymanetValueHandler),
             (r"/transactions_by_date", TransactionsHandler),
         ],
-        debug=True,
         autoreload=True,
     )
 
