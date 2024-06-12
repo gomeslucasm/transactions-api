@@ -14,7 +14,7 @@ class TotalPaymanetValueHandler(RequestHandler):
     async def get(self):
         try:
             tpv = await self.transaction_service.calculate_total_payment_volume()
-            self.write({"TPV": tpv / 100.0})
+            self.write({"TPV": tpv})
             self.set_status(200)
         except Exception as e:
             self.write({"error": str(e)})

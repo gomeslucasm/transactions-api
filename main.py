@@ -1,5 +1,4 @@
 import asyncio
-from alive import AliveHandler
 from core.seralizers import JSONEncoder
 from handlers.health_check import HealthCheckHandler
 from handlers.total_payment_value import TotalPaymanetValueHandler
