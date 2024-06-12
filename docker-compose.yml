@@ -16,7 +16,7 @@ services:
       context: .
     container_name: api
     ports:
-      - '8888:8888'
+      - '9000:8888'
     command: python3 -u main.py
     restart: always
     depends_on:
