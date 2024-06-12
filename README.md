@@ -16,7 +16,7 @@ docker-compose up --build
 
 Siga os passos abaixo para adicionar o dump do banco de dados:
 
-    Copie o arquivo de dump para o contêiner do MongoDB:
+Copie o arquivo de dump para o contêiner do MongoDB:
 
 ```bash
 docker cp transactions.agz db:/transactions.agz
